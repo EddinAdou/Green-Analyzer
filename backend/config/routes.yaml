@@ -1,0 +1,18 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+api_register:
+    path: /api/register
+    controller: App\Controller\RegistrationController::register
+    methods: POST
+
+api_login:
+    path: /api/login
+    controller: App\Controller\LoginController::login
+    methods: POST
+
+api_analyse:
+    path: /api/analyse
+    controller: App\Controller\AnalyseController::analyse
+    methods: [GET, POST]

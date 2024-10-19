@@ -1,0 +1,6 @@
+{
+    "require": {
+        "lexik/jwt-authentication-bundle": "*",
+        "nelmio/api-doc-bundle": "*"
+    }
+}
